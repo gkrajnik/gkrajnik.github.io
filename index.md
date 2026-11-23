@@ -8,9 +8,11 @@ title: Home
 # Hi, I'm Garrett.
 
 I'm an Artificial Intelligence student at the University of
-Wisconsin–Eau Claire, with previous work in mechanistic interpretability
+Wisconsin–Eau Claire, with past research in mechanistic interpretability
 and understanding how language models work.
 
 ## Explore my work
 
-- [Research]({{ '/research/' | [relative_url](https://github.com/gkrajnik) }})
+- [Research]({{ '/research/' | relative_url }})
+- [Projects]({{ '/projects/' | relative_url }})
+- [GitHub](https://github.com/gkrajnik)
