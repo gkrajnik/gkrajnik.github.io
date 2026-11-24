@@ -1,19 +1,25 @@
 ---
 layout: default
-title: Research
-permalink: /research/
+title: Projects
+permalink: /projects.html
 ---
 
-[Home]({{ '/' | relative_url }}) · [Research]({{ '/research/' | relative_url }}) · [Projects]({{ '/projects/' | relative_url }})
+[Home]({{ '/' | relative_url }}) | [Research]({{ '/research.html' | relative_url }}) | **Projects**
 
-# Research
+# Projects
 
-## Mechanistic Interpretability
+My projects give me opportunities to apply programming, data analysis, and visualization to questions that interest me.
 
-I work with Dr. Abhinav Chand at the University of
-Wisconsin–Eau Claire to study the internal workings of
-language models.
+## NFL Game Outcome Predictor
 
-## Small Model Work
+*Three-person group project | 2026*
 
-## Large Model Work
+I worked with two teammates to build a Python program that estimates NFL regular-season game outcomes using historical weekly offensive and defensive statistics. The program compares team performance through prediction functions and a point-based scoring approach, then displays estimated home and away win probabilities.
+
+My work included cleaning and analyzing team datasets with pandas and NumPy, creating probability visualizations with Matplotlib, and using linear regression to explore relationships between yearly team statistics and wins.
+
+This project gave me experience working collaboratively, turning sports data into predictions, and explaining results through visualizations.
+
+**Tools:** Python, pandas, NumPy, Matplotlib
+
+[View the project repository](https://github.com/gkrajnik/NFL-Predictor)
