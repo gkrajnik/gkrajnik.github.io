@@ -5,11 +5,9 @@ title: Home
 
 [Home]({{ '/' | relative_url }}) · [Research]({{ '/research/' | relative_url }}) · [Projects]({{ '/projects/' | relative_url }})
 
-# Hi, I'm Garrett.
+# About me
 
-I'm an Artificial Intelligence student at the University of
-Wisconsin–Eau Claire, with past research in mechanistic interpretability
-and understanding how language models work.
+Hello, my name is Garrett Krajnik. I'm currently am an Artificial Intelligence student at the University of Wisconsin–Eau Claire, with past research in mechanistic interpretability and understanding how language models work.
 
 ## Explore my work
 
