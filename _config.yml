@@ -1,3 +1,20 @@
-theme: jekyll-theme-chirpy
 title: Garrett Krajnik
-description: "AI student and undergraduate researcher studying how neural networks represent and process information."
+description: AI student and undergraduate researcher studying how neural networks represent and process information.
+url: "https://gkrajnik.github.io"
+baseurl: ""
+author: Garrett Krajnik
+email: gkrajnik06@gmail.com
+github_url: "https://github.com/gkrajnik"
+timezone: America/Chicago
+lang: en
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+exclude:
+  - README.md
+  - VALIDATION.md
+  - Gemfile
+  - Gemfile.lock
+  - preview
+  - vendor

@@ -1,0 +1,5 @@
+---
+layout: default
+---
+<header class="page-header"><p class="eyebrow">{{ page.eyebrow | default: 'Garrett Krajnik' | escape }}</p><h1>{{ page.title | escape }}</h1>{% if page.description %}<p class="page-introduction">{{ page.description | escape }}</p>{% endif %}</header>
+<div class="prose">{{ content }}</div>

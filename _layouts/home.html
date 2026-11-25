@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<section class="hero" aria-labelledby="intro-title">
+  <div class="hero-main">
+    <p class="eyebrow">Artificial intelligence · Undergraduate research</p>
+    <h1 id="intro-title">Understanding what happens <span>inside neural networks.</span></h1>
+    <p class="hero-description">{{ page.introduction | escape }}</p>
+    <div class="hero-actions"><a class="button" href="{{ '/research.html' | relative_url }}">Explore my research</a><a class="text-link" href="{{ '/projects.html' | relative_url }}">View projects</a></div>
+  </div>
+  <aside class="profile-note" aria-label="About Garrett">
+    <span class="profile-initials" aria-hidden="true">GK.</span>
+    <p class="profile-name">{{ site.author | escape }}</p>
+    <p>AI student &amp;<br>undergraduate researcher</p>
+    <dl><dt>University</dt><dd>Wisconsin–Eau Claire</dd><dt>Expected graduation</dt><dd>May 2028</dd></dl>
+    <a href="mailto:{{ site.email | escape }}">Get in touch</a>
+  </aside>
+</section>
+<div class="home-content">{{ content }}</div>
+<section class="selected-work" aria-labelledby="work-title">
+  <div class="section-heading"><div><p class="eyebrow">A closer look</p><h2 id="work-title">Selected work</h2></div><p>Research questions.<br>Practical experiments.</p></div>
+  {% for work in site.data.work %}
+  <article class="work-row">
+    <div class="work-meta"><span>{{ work.category | escape }}</span><span>{{ work.period | escape }}</span></div>
+    <div class="work-description"><h3><a href="{{ work.url | relative_url }}">{{ work.title | escape }}</a></h3><p>{{ work.description | escape }}</p><ul class="tags" aria-label="Tools">{% for tool in work.tools %}<li>{{ tool | escape }}</li>{% endfor %}</ul></div>
+    <a class="work-link" href="{{ work.url | relative_url }}" aria-label="{{ work.link_label | escape }}: {{ work.title | escape }}">{{ work.link_label | escape }}</a>
+  </article>
+  {% endfor %}
+</section>

@@ -1,0 +1,21 @@
+- category: Research
+  period: November 2026–present
+  title: Understanding small recurrent networks
+  description: Examining a sixteen-neuron model to investigate how it finds the position of the second-largest number in a sequence.
+  url: /research.html#small-recurrent-networks
+  link_label: Read research
+  tools: [Python, PyTorch, Jupyter]
+- category: Research
+  period: Summer 2026
+  title: Factual representations during roleplay
+  description: Using linear probes to study how Gemma models represent factual information as roleplay and conversational topics change.
+  url: /research.html#factual-representations
+  link_label: Read research
+  tools: [Gemma, Linear probing, GPU computing]
+- category: Project
+  period: "2026 · Three-person team"
+  title: NFL game outcome predictor
+  description: Combining historical team statistics, prediction functions, and visualizations to estimate regular-season game outcomes.
+  url: /projects.html#nfl-predictor
+  link_label: View project
+  tools: [Python, pandas, Matplotlib]
